@@ -127,7 +127,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Test.h" />
+  </ItemGroup>
+  <ItemGroup>
     <ClCompile Include="Test.cpp" />
+    <ClCompile Include="To_Do_List_Creator.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="To-Do.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
