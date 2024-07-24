@@ -127,9 +127,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Test.h" />
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="Test.cpp" />
     <ClCompile Include="To_Do_List_Creator.cpp" />
   </ItemGroup>
