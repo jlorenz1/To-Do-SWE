@@ -9,9 +9,5 @@ class To_Do_List_Creator
 
 	std::string listItem;
 
-	void ListMaker(std::string)
-	{
-		
-	}
-};
-
+	void ListMaker(std::string listItem);
+}
