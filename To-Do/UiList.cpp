@@ -13,6 +13,6 @@ void UIList::displayList(std::vector<std::string> list)
 
     for (int listIndex = 0; listIndex < list.size(); ++listIndex)
     {
-        std::cout << listIndex + 1 << ". " << list[listIndex] << std::endl;
+        std::cout << listIndex + 1 << ".. " << list[listIndex] << std::endl;
     }
 }
