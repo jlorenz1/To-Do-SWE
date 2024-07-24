@@ -130,7 +130,6 @@
     <ClInclude Include="To_Do_List_Creator.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Test.cpp" />
     <ClCompile Include="To_Do_List_Creator.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
