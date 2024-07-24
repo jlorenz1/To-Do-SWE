@@ -1,6 +1,7 @@
 #pragma once
 #include <vector>
 #include <string>
+#include <iostream>
 
 class UIList
 {
@@ -11,6 +12,6 @@ public:
 	void displayList(std::vector<std::string> list);
 
 private:
-
+	std::string name;
 };
 
