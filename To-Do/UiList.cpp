@@ -9,8 +9,10 @@ std::string UIList::getName()
 
 void UIList::displayList(std::vector<std::string> list)
 {
+    std::cout << name << "list: " << std::endl;
+
     for (int listIndex = 0; listIndex < list.size(); ++listIndex)
     {
-        std::cout << ""
+        std::cout << listIndex + 1 << ". " << list[listIndex] << std::endl;
     }
 }
